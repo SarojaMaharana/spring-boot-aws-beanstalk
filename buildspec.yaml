@@ -4,9 +4,10 @@ phases:
   install:
     runtime-versions:
       java: corretto8
-  post_build:
+  build:
     commands:
-      - mvn clean install
+      - mvn test
+      - mvn package
       - mv target/spring-boot-aws-beanstalk-0.0.2-SNAPSHOT.war ROOT.war
 artifacts:
   files:
