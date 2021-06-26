@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto8
+  post_build:
+    commands:
+      - mvn clean install
+      - mv target/spring-boot-aws-beanstalk-0.0.2-SNAPSHOT.war ROOT.war
+artifacts:
+  files:
+    - ROOT.war
+    - .ebextensions/**/*

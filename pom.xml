@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ebs.code</groupId>
-	<artifactId>spring-boot-ebs</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>spring-boot-aws-beanstalk</artifactId>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>spring-boot-ebs</name>
+	<name>spring-boot-aws-beanstalk</name>
 	<description>Sample project for Spring Boot EBS</description>
 	<properties>
 		<java.version>1.8</java.version>
