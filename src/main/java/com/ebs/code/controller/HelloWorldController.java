@@ -10,6 +10,6 @@ public class HelloWorldController {
 	
 	@GetMapping(path = "/hello")
 	public String sayHelloWorld() {
-		return "Hello Saroj, How are you? I m doing good.";
+		return "Hello Saroj, How are you? I m doing good. Value is updated.";
 	}
 }
